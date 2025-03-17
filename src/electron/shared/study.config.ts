@@ -26,23 +26,15 @@ const studyConfig: StudyConfiguration = {
     experienceSamplingTracker: {
       enabled: true,
       enabledWorkHours: false,
-      scale: 5,
+      scale: 7,
       questions: [
         'How productive are you right now compared to usual?',
         'How well are you currently spending your time?',
-        'I\'m feeling optimistic about the future', 
-        'I\'m feeling useful', 
-        'I\'m feeling relaxed', 
-        'I\'m dealing with problems well', 
-        'I\'m thinking clearly', 
-        'I\'m feeling close to other people', 
-        'I\'m able to make up my own mind about things'
+        'I feel stressed right now',
+        'I feel overwhelmed right now',
+        'I feel good right now'
       ],
       responseOptions: [
-        ['not at all', 'somewhat', 'very'],
-        ['not at all', 'somewhat', 'very'],
-        ['not at all', 'somewhat', 'very'],
-        ['not at all', 'somewhat', 'very'],
         ['not at all', 'somewhat', 'very'],
         ['not at all', 'somewhat', 'very'],
         ['not at all', 'somewhat', 'very'],
